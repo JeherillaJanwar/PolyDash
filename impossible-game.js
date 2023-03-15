@@ -2173,19 +2173,6 @@ function positivMod(n, mod) {
   
     let endingInstance = new ending(Math.floor(lastPos[0]) + 33);
     gridInstance.addEnding(endingInstance);
-  
-   
-    heroInstance = new hero(
-      gameParameters.initial[0],
-      gameParameters.initial[1],
-      gameParameters.initial[2],
-      gameParameters.initial[3],
-      gameParameters.initial[4],
-      gameParameters.initial[5],
-      gameParameters.initial[6],
-      gameParameters.initial[7],
-      gameParameters.initial[8]
-    );
   }
   
   /* MAIN */
